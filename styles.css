@@ -1,0 +1,55 @@
+container{
+  responsive: true,
+  print: true,
+  property: display,
+  class: d,
+  values: inline inline-block block grid inline-grid table table-row table-cell flex inline-flex none
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7395AE;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005F6B;
+}
+.cf{
+  width: 95%;
+}
+
+input{
+  border: 2px solid #d2d2d2;
+}
